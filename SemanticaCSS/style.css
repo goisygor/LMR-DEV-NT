@@ -1,0 +1,42 @@
+    body {
+    background-color: rgb(54, 54, 54);
+    }
+    #bodylogin{
+        background-color: rgb(20, 102, 173);
+        text-align: center;
+
+}
+/* cor de fundo de body black */
+#menu {
+    width: 100%; /*largura*/
+    height: 100px; /*altura*/
+    background-color: rgb(255, 0, 200);
+} 
+ #menu img {
+    height: 90px;
+}
+.LinkMenu {
+    color: aliceblue;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.parte1 {
+    width:100%;
+    height: 800px;
+    text-align: center;
+    margin-top: 20px;
+}
+.parte1 img {
+    height: 600px;
+}
+.parte1 h1 {
+    color:rgb(247, 247, 249) ;
+}
+.parte1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(247, 247, 249);
+}
+
+
