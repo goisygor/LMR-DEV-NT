@@ -1,8 +1,18 @@
     body {
     background-color: rgb(54, 54, 54);
     }
+
+    #bodyContato{
+        background: rgb(180,58,58);
+background: linear-gradient(90deg, rgba(180,58,58,1) 0%, rgba(253,172,29,1) 50%, 
+rgba(252,69,69,1) 100%);
+        text-align: center;
+    }
+
     #bodylogin{
-        background-color: rgb(20, 102, 173);
+        background: rgb(180,58,154);
+        background: linear-gradient(90deg, rgba(180,58,154,1) 0%, rgba(33,29,253,1) 50%, 
+        rgba(252,69,167,1) 100%);
         text-align: center;
 
 }
@@ -37,6 +47,13 @@
 .parte1 {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(247, 247, 249);
+}  
+
+.divLogin {
+margin-top: 200px;
 }
 
+.divContato{
+    margin-top: 200px;
+}
 
