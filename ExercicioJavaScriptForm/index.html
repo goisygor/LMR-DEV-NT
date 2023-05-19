@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip01">Nome Completo</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="Nome Completo" value="" required>
+            <div class="valid-tooltip">
+              Tudo certo!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip02">Email</label>
+            <input type="text" class="form-control" id="validationTooltip02" placeholder="Email" value="" required>
+            <div class="valid-tooltip">
+              Tudo certo!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltipUsername">Confirme seu Email</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Confirme seu Email" aria-describedby="validationTooltipUsernamePrepend" required>
+              <div class="invalid-tooltip">
+                Por favor, Confirme seu email
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip03">Senha
+            <input type="text" class="form-control" id="validationTooltip03" placeholder="Senha" required>
+            <div class="invalid-tooltip">
+              Por favor, informe uma senha válida.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">Confirmar Senha</label>
+            <input type="text" class="form-control" id="validationTooltip04" placeholder="Confirmar Senha" required>
+            <div class="invalid-tooltip">
+              Por favor, Confirme sua Senha
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip05">Endereço</label>
+            <input type="text" class="form-control" id="validationTooltip05" placeholder="Endereço" required>
+            <div class="invalid-tooltip">
+              Por favor, informe um Endereço válido.
+            </div>
+          </div>    
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </form>
+</body>
+<script src="Exercicio.js"></script>
+</html>

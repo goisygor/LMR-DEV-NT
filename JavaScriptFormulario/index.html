@@ -10,14 +10,33 @@
 
 <body>
     <form action="">
-    <label for="pNome">Digite seu Nome..............</label>
+    <label for="pNome">Digite seu Nome</label>
     <input type="text" id="pNome">
+
     <br>
-    <label for="pSobrenome">Digite seu SobreNome..............</label>
+    <label for="pSobrenome">Digite seu Sobrenome</label>
     <input type="text" id="pSobrenome">
     <br>
     <br>
     <input type="button" value="Concatenar" onclick="mostrarNome()">
+</form>
+<hr>
+<hr>
+<form action="" id="MyCalc">
+    <label for="pv1" title="Informe o valor 1">
+        entre com o 1° valor
+    </label>
+    <input type="text" id="pvalor1" />
+    <br>
+    <label for="pv2" title="Informe o valor 2">
+        entre com o 2° valor
+    </label>
+    <input type="text" id="pvalor2" />
+    <br/><br/>
+    <input type="button" value="Somar" onclick="somar()" />
+    <input type="button" value="Subtrair" onclick="sub()" />
+    <input type="button" value="Multiplicar" onclick="mult()" />
+    <input type="button" value="Dividir" onclick="div()" />
 </form>
 </body>
 <script src="Script01.js"></script>
